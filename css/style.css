@@ -234,9 +234,9 @@ button:hover i {
   padding-top: 20px;
 }
 
-.pageclip-form__submit:after {
+/* .pageclip-form__submit:after {
   padding: 1000px;
-}
+} */
 
 @media (max-width: 767px) {
   h3 {
