@@ -23,13 +23,13 @@
     <link rel="icon" href="images/favicon.ico" />
   </head>
 
-  <body>
+  <body class="backimg">
     <div class="wrapper">
-      <img
+      <!-- <img
         class="background-image"
         src="images/signupbg.jpg"
         alt="Skills Background Image"
-      />
+      /> -->
       <div class="inner">
         <form
           action="https://send.pageclip.co/64hBV5TKMHCSjZyIZgEHtra2dlSLqmGT/testform"
@@ -88,6 +88,21 @@
             />
             <span for="">Field of Interests</span>
             <span class="border"></span>
+          </label>
+          <label class="form-grou">
+            <span for="">What all you want to learn</span>
+            <input
+              type="text"
+              name="Field of Interests"
+              class="form-control"
+              required
+            />
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I have a bike</label><br />
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+            <label for="vehicle2"> I have a car</label><br />
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> I have a boat</label><br />
           </label>
           <label class="form-group">
             <input type="text" name="Skills" class="form-control" required />
