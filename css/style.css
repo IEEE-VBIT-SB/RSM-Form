@@ -231,12 +231,7 @@ button:hover i {
 
 .pageclip-form__submit {
   text-align: center;
-  padding-top: 20px;
 }
-
-/* .pageclip-form__submit:after {
-  padding: 1000px;
-} */
 
 @media (max-width: 767px) {
   h3 {
